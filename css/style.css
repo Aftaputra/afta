@@ -1,0 +1,215 @@
+
+
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F8F9;
+}
+
+.logo_saya {
+    cursor: pointer;
+}
+.logo_saya:hover {
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 120px;
+}
+.navlink, li{
+    display: inline-block;
+}
+li,a {
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    padding: 0 1rem;
+    font-size: 0.9rem;
+    list-style: none;
+    text-decoration: none;
+    color: #363E58;
+}
+
+
+/*tombol*/
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+    background-color: #363E58;
+    display: inline-flex;
+    height: max-content;
+    width: max-content;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 99px;
+    overflow: hidden;
+    cursor: pointer;
+    letter-spacing: 0.05rem;
+
+}
+button:hover {
+    background-color: #252c41;
+}
+.bicon,.btext {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0.2rem;
+}
+.bicon {
+    font-size: 1.4rem;
+}
+
+.outline {
+    background-color: #F8F8F9;
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    border: 1px solid #363E58;
+    color: #363E58 ;
+    margin-left: 24px ;
+}
+
+.outline:hover {
+    background-color: #F8F8F9;
+}
+
+.ticon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0.2rem;
+}
+
+/*Opsi*/
+.opsi {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: 6E7487;
+    background-color: #F2F2F5;
+    margin-left: 16px;
+    border: 1px solid #ffffff00;
+}
+.opsi, .topsi {
+    letter-spacing: 0.1rem;
+    color: #6E7487;
+}
+.opsi:hover {
+    background-color: #E2E6F8;
+    border: 1px solid #57639C;
+}
+.topsi:hover {
+    color: #57639C;
+
+}
+.opsi:active {
+    color: #57639C;
+}
+
+/*tombol*/
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 120px;
+}
+.filtr {
+    margin: 0;
+}
+
+/*Short informasi*/
+.indikator {
+    display: inline-flex;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    margin: 42px;
+    margin-bottom: 0px;
+}    
+.label1 {
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    color: #72788A;
+}
+.logolabel1 {
+    display: inline-flex;
+    align-items: center;
+    color: #72788A;
+    padding-right: 0.5rem;
+}
+.tanggal, .waktubaca {
+    display: inline-flex;
+    padding-right: 1rem;
+    vertical-align: middle;
+}
+/*Short informasi*/
+
+.kontensatuan {
+    margin: 24px 120px;
+    background-color: #F8F8F9;
+    border-radius: 12px;
+    border-bottom: 1px sol;
+}
+
+.judul-isi {
+
+}
+
+.judul {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: #272D3F;
+    margin: 0 42px;
+}
+
+.isi {
+    padding-top: 8px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 195%;
+    color: #363E58;
+    letter-spacing: 0.1rem;
+    margin: 42px;
+    margin-top: 0px;
+    ;
+    text-align: justify;
+}
+
+.isi1 {
+    display: flex;
+    margin-right: 42px;
+}
+
+.baca {
+    display: inline-flex;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    margin: 0 42px 42px 42px;
+    background-color: #363e5869;
+    padding: 8px 16px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.baca:hover {
+    background-color: #363e58b6;
+}
+
+.iconbaca {
+    display: inline-flex;
+    align-items: center;
+    padding-right: 0.7rem;
+}
+
+.baca ion-icon {
+    --ionicon-stroke-width: 3rem;
+    font-size: 1.3rem;
+}
